@@ -40,11 +40,10 @@
 
       </div>
       <div id="navi" class="six columns">
-           <div class="sp_navi clearfix">
-                <ul class="fb_insta">
-                    <li><img class="fb u-max-full-width" src="images/top_sp/fb.png" alt="fb" srcset="images/top_sp/fb@2x.png 2x" /></li>
-                    <li><img class="insta u-max-full-width" src="images/top_sp/insta.png" alt="insta" srcset="images/top_sp/insta@2x.png 2x" /></li>
-                </ul>
+           <div class="sp_navi">
+                <ul class="sp_navi_ul clearfix">
+                    <li class="fb_li"><img class="fb u-max-full-width" src="images/top_sp/fb.png" alt="fb" srcset="images/top_sp/fb@2x.png 2x" /></li>
+                    <li class="insta_li"><img class="insta u-max-full-width" src="images/top_sp/insta.png" alt="insta" srcset="images/top_sp/insta@2x.png 2x" /></li>
           <div id="menu"><img class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="sp_navi" srcset="images/top_sp/menu_icon@2x.png 2x" /></div>
           <ul class="sp_menu_toggle">
               <li><a href="">ログイン</a></li>
@@ -52,8 +51,8 @@
               <li><a href="">マイページ</a></li>
               <li><a href="">ショッピングガイド</a></li>
           </ul>
+          </ul>
           </div>
-          
          <div class="pc_navi">
                 <ul class="pc_navi_li clearfix">
                     <li class="first_navi"><a href=""><img class="u-max-full-width" src="images/top/menu_login.png" alt="login" /></a></li>
@@ -79,8 +78,8 @@
                 <a href=""><img class="u-max-full-width" src="images/top/banner_04.jpg" alt="banner_12" /></a>
                     </div>
                     
-                    <img id="sp_guide" class="item_guide_sp u-max-full-width" src="images/top_sp/title_new_item.png" alt="title" srcset="images/top_sp/title_new_item@2x.png 2x" />
-                    <img id="pc_guide" class="item_guide u-max-full-width" src="images/top/title_newitems.png" alt="itemguide" />
+                    <img class="sp_guide u-max-full-width" src="images/top_sp/title_new_item.png" alt="title" srcset="images/top_sp/title_new_item@2x.png 2x" />
+                    <img class="pc_guid u-max-full-width" src="images/top/title_newitems.png" alt="itemguide" />
                  <ul class="item clearfix">
                         <li class="item_pic"><a href=""><img class="item_img u-max-full-width" src="images/top/item_01.jpg" alt="item_01" /></a>
                         <p class="item_name">商品名が入ります商品名が入ります商品名が入ります</p>
@@ -108,8 +107,8 @@
                         </li>
                     </ul>
                     
-                <img id="sp_guide" class="pop_guide_sp u-max-full-width" src="images/top_sp/title_pop.png" alt="title" srcset="images/top_sp/title_pop@2x.png 2x" />   
-                <img id="pc_guide" class="popluar_guide u-max-full-width" src="images/top/title_popular.png" alt="popluar_guide" />
+                <img class="sp_guide u-max-full-width" src="images/top_sp/title_pop.png" alt="title" srcset="images/top_sp/title_pop@2x.png 2x" />   
+                <img class="pc_guid u-max-full-width" src="images/top/title_popular.png" alt="popluar_guide" />
                    <ul class="ninki">
                         <li class="popluar_pic"><a href=""><img class="popluar_img u-max-full-width" src="images/top/item_07.jpg" alt="item_07" /></a>
                         <p class="item_name">商品名が入ります商品名が入ります商品名が入ります</p>
@@ -137,8 +136,8 @@
                         </li>
                     </ul>
                     
-                    <img id="sp_guide" class="shopping_guide_sp u-max-full-width" src="images/top_sp/title_guide.png" alt="title" srcset="images/top_sp/title_guide@2x.png 2x" />
-                    <img id="pc_guide" class="shopping_guide u-max-full-width" src="images/top/title_guide.png" alt="shopping_guide" />
+                    <img class="sp_guide u-max-full-width" src="images/top_sp/title_guide.png" alt="title" srcset="images/top_sp/title_guide@2x.png 2x" />
+                    <img class="pc_guid u-max-full-width" src="images/top/title_guide.png" alt="shopping_guide" />
                     <div id="delivery_cash" class="clearfix">
                         <div class="delivery">
                             <h2>お届けについて</h2>
@@ -163,22 +162,17 @@
                  </div><!--nine columns -->
                
                 <div class="three columns">
-                     <div id="search" class="clearfix"><img class="serch-title u-max-full-width" src="images/top/itemserch.png" alt="search_item" />
-                     <div class="inner_box">
-                        <p class="moji"><em>Search..</em></p>
-                        <img class="inner_icon u-max-full-width" src="images/top/search_icon.png" alt="search_icon">
+                    <div id="search_box" class="clearfix">
+           <img class="serch-title u-max-full-width" src="images/top/itemserch.png" alt="search_item" />
+                     <input type="search" placeholder="Search..." class="inner_box" />
                  </div>
-                 </div>
-
                  <div id="page_bar" class="clearfix">
-                     <a class="page_left" href=""><img class="u-max-full-width" src="images/top/pagelink.png" /></a>
-                     <a class="page_right" href=""><img class="u-max-full-width" src="images/top/next_icon.png" /></a>
+                     <a class="page_left" href=""><img class="u-max-full-width" src="images/top/pagelink.png" alt="" /></a>
                      </div>
                  
                  <div id="categories_bar">
                      <ul class="categories_side clearfix">
-                   <li class="cate_main_bar"><a href=""><img class="categories_box u-max-full-width" src="images/top/categories.png" alt="" /></a>
-                   <a class="page-right" href=""><img class="categories_icon u-max-full-width" src="images/top/down_icon.png" alt="" /></a></li>
+                   <li class="cate_main_bar"><a href=""><img class="categories_box u-max-full-width" src="images/top/categories.png" alt="" /></a></li>
                        <li class="cate_li"><a class="categories_menu" href="">カテゴリー名</a></li>
                        <li class="cate_li"><a class="categories_menu" href="">カテゴリー名</a></li>
                        <li class="cate_li"><a class="categories_menu" href="">カテゴリー名</a></li>
@@ -223,9 +217,7 @@
              </div>
              </div>
         </footer>
-<!--
-       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
---><script>
+<script>
     $(document).ready(function(){
   $("#menu").click(function(){
     $(".sp_menu_toggle").slideToggle();
