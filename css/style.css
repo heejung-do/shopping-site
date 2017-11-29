@@ -144,11 +144,13 @@ html {
 
   #cover_area .pc_guide {
     padding: 3% 0% 2%; }
+  #cover_area .item_guide {
+    margin-top: 3%; }
   #cover_area .item,
   #cover_area .ninki {
     display: inline-block;
     list-style: none;
-    margin: 3% 0;
+    margin: 0;
     padding: 0;
     text-decoration: none; }
     #cover_area .item .item_pic,
@@ -745,7 +747,7 @@ html {
           cursor: pointer; }
 
   .guide_line_second {
-    border-top: solid 1px #f7f5f2;
+    border-top: solid 1px #ccc8be;
     margin-top: 2%;
     margin-left: 4%;
     width: 85%; }
@@ -947,7 +949,7 @@ html {
       display: none; }
     #main_area .main_middle_pc .price {
       display: inline-block;
-      width: 58%;
+      width: 55%;
       height: auto;
       border-top: solid 1px #ccc8be;
       padding: 3% 0;
@@ -969,13 +971,13 @@ html {
       border-bottom: solid 1px #ccc8be; }
       #main_area .main_middle_pc .quantity img {
         float: left;
-        margin-top: 6%; }
+        margin-top: 5%; }
       #main_area .main_middle_pc .quantity .space_div {
         border: solid 1px #ccc8be;
         float: left;
         padding: 3%;
         width: 20%;
-        margin: 3% 0 3% 10%; }
+        margin: 3% 0 3% 8%; }
     #main_area .item_speech .item_speech_top {
       margin-top: 5%;
       margin-bottom: 0;

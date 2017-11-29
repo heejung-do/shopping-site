@@ -182,11 +182,14 @@ li{
 .pc_guide {
    padding: 3% 0% 2%;
 }
+.item_guide{
+    margin-top: 3%;
+}
 .item,
 .ninki {
   display: inline-block;
   list-style: none;
-  margin: 3% 0;
+  margin: 0;
   padding: 0;
   text-decoration: none;
 .item_pic,
@@ -869,7 +872,7 @@ li img {
 }
 }
 .guide_line_second{
-    border-top: solid 1px lighten($pointcolor, 10%);
+    border-top: solid 1px lighten($keycolor, 30%);
     margin-top: 2%;
     margin-left: 4%;
     width: 85%;
@@ -1116,7 +1119,7 @@ td{
 .main_middle_pc{
 .price{
     display: inline-block;
-    width: 58%;
+    width: 55%;
     height: auto;
     border-top: solid 1px lighten($keycolor, 30%);
     padding: 3% 0;
@@ -1144,14 +1147,14 @@ em{
      border-bottom: solid 1px lighten($keycolor, 30%);
 img{
     float: left;
-    margin-top: 6%;
+    margin-top: 5%;
 }
 .space_div{
     border: solid 1px #ccc8be;
     float: left;
     padding: 3%;
     width: 20%;
-    margin: 3% 0 3% 10%;
+    margin: 3% 0 3% 8%;
 }
 }
 }
