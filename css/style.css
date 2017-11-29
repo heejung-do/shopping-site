@@ -13,15 +13,12 @@ html {
   margin-right: auto; }
 #header_in .sp_navi .sp_navi_ul {
   list-style: none;
-  margin-left: 37%;
   margin-bottom: 0;
   padding: 5% 0 0 0;
-  width: 100%; }
-  #header_in .sp_navi .sp_navi_ul .fb_li {
-    float: left; }
+  display: flex;
+  justify-content: center; }
   #header_in .sp_navi .sp_navi_ul .insta_li {
-    margin-left: 2%;
-    float: left; }
+    margin-left: 2%; }
 #header_in .sp_navi #menu {
   cursor: pointer;
   margin-left: 2%;
@@ -29,27 +26,40 @@ html {
 #header_in .sp_navi .sp_menu_toggle {
   display: none;
   list-style: none;
-  width: 40%;
+  width: 100%;
   position: absolute;
   top: 85%;
-  right: 3%;
-  border: 1px solid #eee;
-  background: white;
+  left: 0;
+  background: #ff6680;
   margin: 0;
-  padding: 0;
+  padding: 3% 0;
   display: none;
   z-index: 100; }
   #header_in .sp_navi .sp_menu_toggle li {
     font-size: 11px;
     margin: 0;
-    padding: 0; }
+    padding: 0 6%; }
     #header_in .sp_navi .sp_menu_toggle li a {
       display: block;
-      padding: 8% 5%;
+      padding: 2% 2%;
       border-bottom: 1px solid #eee;
       font-size: 14px;
       text-decoration: none;
-      color: #887f69; }
+      color: white; }
+    #header_in .sp_navi .sp_menu_toggle li #end_tog {
+      display: block;
+      padding: 3% 2%;
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+      border-bottom: none; }
+    #header_in .sp_navi .sp_menu_toggle li #first_tog {
+      display: block;
+      padding: 3% 2%;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+      text-decoration: none;
+      color: white; }
 #header_in .pc_navi {
   padding-top: 5%;
   padding-left: 16%; }

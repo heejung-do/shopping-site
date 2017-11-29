@@ -28,17 +28,13 @@ $pointcolor: #e2ddd4;
   .sp_navi {
 .sp_navi_ul{
     list-style: none;
-    margin-left: 37%;
     margin-bottom: 0;
     padding: 5% 0 0 0;
-    width: 100%;
-    .fb_li{
-    float: left;
-    }
-     .insta_li{
-        margin-left: 2%;
-        float: left;
-      }
+    display: flex;
+    justify-content: center;
+.insta_li{
+    margin-left: 2%;
+}
       }// fb_insta
       #menu {
         cursor: pointer;
@@ -46,31 +42,46 @@ $pointcolor: #e2ddd4;
         float: left;
 }
 .sp_menu_toggle {
-  display: none;
+   display: none;
     list-style: none;
-    width: 40%;
+    width: 100%;
     position: absolute;
     top: 85%;
-    right: 3%;
-    border: 1px solid #eee;
-    background: white;
+    left: 0;
+    background: #ff6680;
     margin: 0;
-    padding: 0;
+    padding: 3% 0;
     display: none;
     z-index: 100;
   li  {
     font-size: 11px;
     margin: 0;
-    padding: 0;
+    padding: 0 6%;
     a{
     display: block;
-    padding: 8% 5%;
+    padding: 2% 2%;
     border-bottom: 1px solid #eee;
     font-size: 14px;
     text-decoration: none;
-    color: #887f69;
-    }
-  } //li
+    color: white;
+}
+#end_tog{
+    display: block;
+    padding: 3% 2%;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border-bottom: none;
+}
+#first_tog{
+    display: block;
+    padding: 3% 2%;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+}
   }//.sp_menu_toggle
 }// .sp_navi
 
